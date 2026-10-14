@@ -1,0 +1,38 @@
+# Este repositório é apenas documentação.
+# Bloqueio preventivo de arquivos que nunca devem ser publicados aqui.
+
+# Segredos e configurações locais
+.env
+.env.*
+*.key
+*.pem
+*.keystore
+*.jks
+secrets*
+
+# Código e binários do aplicativo original
+*.py
+*.dart
+*.apk
+*.aab
+*.ipa
+pyproject*.toml
+pubspec.yaml
+build/
+src/
+screens/
+services/
+releases/
+
+# Ambientes e caches
+.venv/
+venv/
+__pycache__/
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
